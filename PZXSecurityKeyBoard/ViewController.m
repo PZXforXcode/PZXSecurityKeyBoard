@@ -6,8 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "UIView+BorderLine.h"
-#import "UITextField+Security.h"
 #import "PZXInputView.h"
 
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width

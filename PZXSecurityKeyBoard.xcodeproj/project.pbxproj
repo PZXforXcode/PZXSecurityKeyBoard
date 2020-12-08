@@ -90,11 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				91F09763257F209A004C162F /* PZXInputView.h */,
-				91F09764257F209A004C162F /* UITextField+Security.m */,
-				91F09765257F209A004C162F /* UIView+BorderLine.h */,
 				91F09766257F209A004C162F /* PZXInputView.m */,
+				91F09765257F209A004C162F /* UIView+BorderLine.h */,
 				91F09767257F209A004C162F /* UIView+BorderLine.m */,
 				91F09768257F209A004C162F /* UITextField+Security.h */,
+				91F09764257F209A004C162F /* UITextField+Security.m */,
 			);
 			path = PZXScurityInputView;
 			sourceTree = "<group>";
