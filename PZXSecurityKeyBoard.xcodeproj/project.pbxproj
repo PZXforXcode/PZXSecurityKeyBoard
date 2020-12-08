@@ -14,9 +14,9 @@
 		91022A5C25749C530061CC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91022A5B25749C530061CC53 /* Assets.xcassets */; };
 		91022A5F25749C530061CC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91022A5D25749C530061CC53 /* LaunchScreen.storyboard */; };
 		91022A6225749C530061CC53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91022A6125749C530061CC53 /* main.m */; };
-		91022A6D2574C60B0061CC53 /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 91022A6C2574C60B0061CC53 /* UIView+BorderLine.m */; };
-		91022A792574CD920061CC53 /* UITextField+Security.m in Sources */ = {isa = PBXBuildFile; fileRef = 91022A782574CD920061CC53 /* UITextField+Security.m */; };
-		91E0518E257F18FE0010BDA9 /* PZXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E0518D257F18FE0010BDA9 /* PZXInputView.m */; };
+		91F09769257F209A004C162F /* UITextField+Security.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F09764257F209A004C162F /* UITextField+Security.m */; };
+		91F0976A257F209A004C162F /* PZXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F09766257F209A004C162F /* PZXInputView.m */; };
+		91F0976B257F209A004C162F /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F09767257F209A004C162F /* UIView+BorderLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		91022A5E25749C530061CC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91022A6025749C530061CC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91022A6125749C530061CC53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91022A6B2574C60B0061CC53 /* UIView+BorderLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
-		91022A6C2574C60B0061CC53 /* UIView+BorderLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
-		91022A772574CD920061CC53 /* UITextField+Security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Security.h"; sourceTree = "<group>"; };
-		91022A782574CD920061CC53 /* UITextField+Security.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Security.m"; sourceTree = "<group>"; };
-		91E0518C257F18FE0010BDA9 /* PZXInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXInputView.h; sourceTree = "<group>"; };
-		91E0518D257F18FE0010BDA9 /* PZXInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXInputView.m; sourceTree = "<group>"; };
+		91F09763257F209A004C162F /* PZXInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXInputView.h; sourceTree = "<group>"; };
+		91F09764257F209A004C162F /* UITextField+Security.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Security.m"; sourceTree = "<group>"; };
+		91F09765257F209A004C162F /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
+		91F09766257F209A004C162F /* PZXInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXInputView.m; sourceTree = "<group>"; };
+		91F09767257F209A004C162F /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
+		91F09768257F209A004C162F /* UITextField+Security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Security.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,18 +70,13 @@
 		91022A4E25749C510061CC53 /* PZXSecurityKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				91F09762257F209A004C162F /* PZXScurityInputView */,
 				91022A4F25749C510061CC53 /* AppDelegate.h */,
 				91022A5025749C510061CC53 /* AppDelegate.m */,
 				91022A5225749C510061CC53 /* SceneDelegate.h */,
 				91022A5325749C510061CC53 /* SceneDelegate.m */,
 				91022A5525749C510061CC53 /* ViewController.h */,
 				91022A5625749C510061CC53 /* ViewController.m */,
-				91E0518C257F18FE0010BDA9 /* PZXInputView.h */,
-				91E0518D257F18FE0010BDA9 /* PZXInputView.m */,
-				91022A6B2574C60B0061CC53 /* UIView+BorderLine.h */,
-				91022A6C2574C60B0061CC53 /* UIView+BorderLine.m */,
-				91022A772574CD920061CC53 /* UITextField+Security.h */,
-				91022A782574CD920061CC53 /* UITextField+Security.m */,
 				91022A5825749C510061CC53 /* Main.storyboard */,
 				91022A5B25749C530061CC53 /* Assets.xcassets */,
 				91022A5D25749C530061CC53 /* LaunchScreen.storyboard */,
@@ -89,6 +84,19 @@
 				91022A6125749C530061CC53 /* main.m */,
 			);
 			path = PZXSecurityKeyBoard;
+			sourceTree = "<group>";
+		};
+		91F09762257F209A004C162F /* PZXScurityInputView */ = {
+			isa = PBXGroup;
+			children = (
+				91F09763257F209A004C162F /* PZXInputView.h */,
+				91F09764257F209A004C162F /* UITextField+Security.m */,
+				91F09765257F209A004C162F /* UIView+BorderLine.h */,
+				91F09766257F209A004C162F /* PZXInputView.m */,
+				91F09767257F209A004C162F /* UIView+BorderLine.m */,
+				91F09768257F209A004C162F /* UITextField+Security.h */,
+			);
+			path = PZXScurityInputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,13 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E0518E257F18FE0010BDA9 /* PZXInputView.m in Sources */,
+				91F0976A257F209A004C162F /* PZXInputView.m in Sources */,
 				91022A5725749C510061CC53 /* ViewController.m in Sources */,
-				91022A792574CD920061CC53 /* UITextField+Security.m in Sources */,
+				91F0976B257F209A004C162F /* UIView+BorderLine.m in Sources */,
 				91022A5125749C510061CC53 /* AppDelegate.m in Sources */,
+				91F09769257F209A004C162F /* UITextField+Security.m in Sources */,
 				91022A6225749C530061CC53 /* main.m in Sources */,
 				91022A5425749C510061CC53 /* SceneDelegate.m in Sources */,
-				91022A6D2574C60B0061CC53 /* UIView+BorderLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
