@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "PZXInputView.h"
+#import "LicensePlateInputView.h"
 
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
@@ -17,6 +18,8 @@
 @property (strong, nonatomic)  PZXInputView *inputView;
 - (IBAction)securityButtonPressed:(UIButton *)sender;
 - (IBAction)outputStringButtonPressed:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *CarTF;
+@property(strong, nonatomic)LicensePlateInputView *carInput;
 
 @end
 
@@ -38,8 +41,25 @@
 
     self.tf.inputView = _inputView;
     self.tf.isPlaintext = YES;
+    
+    
+    //车牌号键盘用法
+    _carInput = [[LicensePlateInputView alloc]init];
+    __weak typeof(self)weakSelf = self;
+    _carInput.sendTextBlock = ^(NSString * _Nonnull plateString) {
+        weakSelf.CarTF.text = plateString;
+    };
+   [self.CarTF addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
+    self.CarTF.inputView = self.carInput;
 
     
+}
+
+//用这个方法把变换的值传回给input 为了切换键盘样式
+-(void)textChanged:(UITextField *)textField{
+    NSLog(@"%@",textField.text);
+    //这里样将键盘值传回plateStr，让键盘切换
+    self.carInput.plateStr = textField.text;
 }
 
 - (IBAction)outputStringButtonPressed:(UIButton *)sender {

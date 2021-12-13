@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89D3A5922760590F008606AB /* LicensePlateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D3A5912760590F008606AB /* LicensePlateInputView.m */; };
 		91022A5125749C510061CC53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91022A5025749C510061CC53 /* AppDelegate.m */; };
 		91022A5425749C510061CC53 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91022A5325749C510061CC53 /* SceneDelegate.m */; };
 		91022A5725749C510061CC53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91022A5625749C510061CC53 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89D3A5902760590F008606AB /* LicensePlateInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LicensePlateInputView.h; sourceTree = "<group>"; };
+		89D3A5912760590F008606AB /* LicensePlateInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputView.m; sourceTree = "<group>"; };
 		91022A4C25749C510061CC53 /* PZXSecurityKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXSecurityKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91022A4F25749C510061CC53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91022A5025749C510061CC53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 			children = (
 				91F09763257F209A004C162F /* PZXInputView.h */,
 				91F09766257F209A004C162F /* PZXInputView.m */,
+				89D3A5902760590F008606AB /* LicensePlateInputView.h */,
+				89D3A5912760590F008606AB /* LicensePlateInputView.m */,
 				91F09765257F209A004C162F /* UIView+BorderLine.h */,
 				91F09767257F209A004C162F /* UIView+BorderLine.m */,
 				91F09768257F209A004C162F /* UITextField+Security.h */,
@@ -174,6 +179,7 @@
 				91022A5125749C510061CC53 /* AppDelegate.m in Sources */,
 				91F09769257F209A004C162F /* UITextField+Security.m in Sources */,
 				91022A6225749C530061CC53 /* main.m in Sources */,
+				89D3A5922760590F008606AB /* LicensePlateInputView.m in Sources */,
 				91022A5425749C510061CC53 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XK67NLSGSP;
+				DEVELOPMENT_TEAM = 6Z7R35XYS9;
 				INFOPLIST_FILE = PZXSecurityKeyBoard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XK67NLSGSP;
+				DEVELOPMENT_TEAM = 6Z7R35XYS9;
 				INFOPLIST_FILE = PZXSecurityKeyBoard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
